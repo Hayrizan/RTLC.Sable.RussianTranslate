@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../src/InkTranslationValidator.cs" Link="InkTranslationValidator.cs" />
+    <Compile Include="../src/FontRenderPolicy.cs" Link="FontRenderPolicy.cs" />
+    <Compile Include="../src/NavigatorRecoveryPolicy.cs" Link="NavigatorRecoveryPolicy.cs" />
+    <Compile Include="../src/SafeJson.cs" Link="SafeJson.cs" />
+    <Compile Include="../src/TranslationFiles.cs" Link="TranslationFiles.cs" />
+    <Compile Include="../src/UnifiedTranslationCatalog.cs" Link="UnifiedTranslationCatalog.cs" />
+    <Compile Include="../src/DebugSaveSlotStore.cs" Link="DebugSaveSlotStore.cs" />
+    <Compile Include="../src/DebugDialogueCatalog.cs" Link="DebugDialogueCatalog.cs" />
+  </ItemGroup>
+</Project>

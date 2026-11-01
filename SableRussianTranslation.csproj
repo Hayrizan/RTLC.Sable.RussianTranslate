@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <AssemblyName>RTLC.Sable.RussianTranslate</AssemblyName>
+    <RootNamespace>RTLC.Sable.RussianTranslate</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="tests/**/*.cs" />
+    <Compile Remove="tools/**/*.cs;build/**/*.cs" />
+    <Reference Include="0Harmony" HintPath="$(SableGamePath)\BepInEx\core\0Harmony.dll" Private="false" />
+    <Reference Include="BepInEx.Core" HintPath="$(SableGamePath)\BepInEx\core\BepInEx.Core.dll" Private="false" />
+    <Reference Include="BepInEx.IL2CPP" HintPath="$(SableGamePath)\BepInEx\core\BepInEx.IL2CPP.dll" Private="false" />
+    <Reference Include="UnhollowerBaseLib" HintPath="$(SableGamePath)\BepInEx\core\UnhollowerBaseLib.dll" Private="false" />
+    <Reference Include="UnhollowerRuntimeLib" HintPath="$(SableGamePath)\BepInEx\core\UnhollowerRuntimeLib.dll" Private="false" />
+    <Reference Include="Assembly-CSharp" HintPath="$(SableGamePath)\BepInEx\unhollowed\Assembly-CSharp.dll" Private="false" />
+    <Reference Include="Unity.Addressables" HintPath="$(SableGamePath)\BepInEx\unhollowed\Unity.Addressables.dll" Private="false" />
+    <Reference Include="GameTemplateAssembly" HintPath="$(SableGamePath)\BepInEx\unhollowed\GameTemplateAssembly.dll" Private="false" />
+    <Reference Include="Il2Cppmscorlib" HintPath="$(SableGamePath)\BepInEx\unhollowed\Il2Cppmscorlib.dll" Private="false" />
+    <Reference Include="UnityEngine.CoreModule" HintPath="$(SableGamePath)\BepInEx\unhollowed\UnityEngine.CoreModule.dll" Private="false" />
+    <Reference Include="UnityEngine.AssetBundleModule" HintPath="$(SableGamePath)\BepInEx\unhollowed\UnityEngine.AssetBundleModule.dll" Private="false" />
+    <Reference Include="UnityEngine.TextRenderingModule" HintPath="$(SableGamePath)\BepInEx\unhollowed\UnityEngine.TextRenderingModule.dll" Private="false" />
+    <Reference Include="UnityEngine.UI" HintPath="$(SableGamePath)\BepInEx\unhollowed\UnityEngine.UI.dll" Private="false" />
+    <Reference Include="UnityEngine.UIModule" HintPath="$(SableGamePath)\BepInEx\unhollowed\UnityEngine.UIModule.dll" Private="false" />
+    <Reference Include="UnityEngine.IMGUIModule" HintPath="$(SableGamePath)\BepInEx\unhollowed\UnityEngine.IMGUIModule.dll" Private="false" />
+    <Reference Include="Unity.TextMeshPro" HintPath="$(SableGamePath)\BepInEx\unhollowed\Unity.TextMeshPro.dll" Private="false" />
+    <Reference Include="UnityEngine.TextCoreModule" HintPath="$(SableGamePath)\BepInEx\unhollowed\UnityEngine.TextCoreModule.dll" Private="false" />
+  </ItemGroup>
+</Project>

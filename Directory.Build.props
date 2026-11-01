@@ -1,0 +1,6 @@
+<Project>
+  <Import Project="Directory.Build.local.props" Condition="Exists('Directory.Build.local.props')" />
+  <PropertyGroup>
+    <SableGamePath Condition="'$(SableGamePath)' == ''">$(SABLE_GAME_PATH)</SableGamePath>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,14 @@
+* text=auto
+*.cs text eol=lf
+*.py text eol=lf
+*.ps1 text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.tsv text eol=lf
+*.png binary
+*.ttf binary
+*.otf binary
+*.bundle binary
+*.zip binary
+# Preserve the exact bytes used by release validation.
+Translations/translation.txt -text
